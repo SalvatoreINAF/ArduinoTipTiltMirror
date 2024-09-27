@@ -11,15 +11,15 @@ from time import sleep
 import serial.tools.list_ports
 import sys
 
-print([comport.device for comport in serial.tools.list_ports.comports()])
-ports = serial.tools.list_ports.comports()
-serialInst = serial.Serial()
+# print([comport.device for comport in serial.tools.list_ports.comports()])
+# ports = serial.tools.list_ports.comports()
+# serialInst = serial.Serial()
 
-print( ports )
-for onePort in ports:
-    print( str(onePort))
+# print( ports )
+# for onePort in ports:
+#     print( str(onePort))
 
-sys.exit(0)
+# sys.exit
 
 def find_one_peak( data ):
     #data is 2d array
